@@ -1,0 +1,20 @@
+@use "../base/variables" as v;
+
+// ==============================
+// FOOTER
+// ==============================
+
+.footer {
+  background-color: v.$color-dark;
+  font-size: 0.9rem;
+}
+
+.footer-link {
+  color: v.$color-blanco;
+  text-decoration: none;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: v.$color-amarillo;
+  }
+}

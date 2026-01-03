@@ -94,6 +94,20 @@ main section:first-of-type p {
   margin-top: 1rem;
 }
 
+.footer {
+  background-color: #212529;
+  font-size: 0.9rem;
+}
+
+.footer-link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+.footer-link:hover {
+  color: #ffd400;
+}
+
 .whatsapp-float {
   position: fixed;
   bottom: 20px;
