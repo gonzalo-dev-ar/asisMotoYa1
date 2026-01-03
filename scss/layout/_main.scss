@@ -1,0 +1,64 @@
+@use "../base/variables" as v;
+
+// ==============================
+// MAIN GENERAL
+// ==============================
+
+main {
+  background-color: v.$color-light;
+}
+
+// ==============================
+// HERO
+// ==============================
+
+main section:first-of-type {
+  h2 {
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-size: 1.1rem;
+    color: v.$color-dark;
+  }
+}
+
+// ==============================
+// SERVICIOS
+// ==============================
+
+#servicios {
+  h5 {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+
+  p {
+    font-size: 0.95rem;
+    color: #555;
+  }
+}
+
+// ==============================
+// PLANES
+// ==============================
+
+#planes .card {
+  border-radius: v.$radius-md;
+  box-shadow: v.$shadow-card;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+  &:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+  }
+}
+
+#planes .card-title {
+  font-weight: 700;
+}
+
+#planes .btn {
+  margin-top: 1rem;
+}

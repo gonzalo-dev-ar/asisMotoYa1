@@ -46,3 +46,21 @@
     transform: translateY(0);
   }
 }
+// NAVBAR
+.navbar {
+  padding: 1rem 0;
+}
+
+.nav-link {
+  color: v.$color-blanco;
+  font-weight: 500;
+  transition: color 0.3s ease;
+
+  &:hover {
+    color: v.$color-amarillo;
+  }
+}
+
+.nav-link.active {
+  color: v.$color-amarillo;
+}
