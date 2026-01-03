@@ -1,3 +1,41 @@
+.header {
+  background-color: #212529;
+}
 
+.brand-title {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.brand-title .asis {
+  color: #000000;
+}
+
+.brand-title .moto {
+  color: #ffd400;
+}
+
+.brand-title .ya {
+  color: #ffffff;
+}
+
+.brand-title {
+  animation: aparecerLogo 1s ease-out forwards;
+}
+
+@keyframes aparecerLogo {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */

@@ -1,0 +1,48 @@
+@use "../base/variables" as v;
+
+// ==============================
+// HEADER / NAVBAR
+// ==============================
+
+.header {
+  background-color: v.$color-dark;
+}
+
+// LOGO
+.brand-title {
+  font-family: v.$font-main;
+  font-weight: bold;
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 2px;
+}
+
+// COLORES DEL LOGO
+.brand-title .asis {
+  color: v.$color-negro;
+}
+
+.brand-title .moto {
+  color: v.$color-amarillo;
+}
+
+.brand-title .ya {
+  color: v.$color-blanco;
+}
+
+// ANIMACIÓN DE ENTRADA
+.brand-title {
+  animation: aparecerLogo 1s ease-out forwards;
+}
+
+@keyframes aparecerLogo {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
