@@ -13,10 +13,13 @@
 
 .brand-title .asis {
   color: #000000;
+  /* borde blanco para mejorar contraste */
+  -webkit-text-stroke: 1px #ffffff;
+  text-stroke: 1px #ffffff;
 }
 
 .brand-title .moto {
-  color: #ffd400;
+  color: #ffea00;
 }
 
 .brand-title .ya {
@@ -47,15 +50,16 @@
   transition: color 0.3s ease;
 }
 .nav-link:hover {
-  color: #ffd400;
+  color: #ffea00;
 }
 
 .nav-link.active {
-  color: #ffd400;
+  color: #ffea00;
 }
 
 main {
-  background-color: #f8f9fa;
+  background-color: #000000;
+  color: #ffffff;
 }
 
 main section:first-of-type h2 {
@@ -64,7 +68,7 @@ main section:first-of-type h2 {
 }
 main section:first-of-type p {
   font-size: 1.1rem;
-  color: #212529;
+  color: #f8f9fa;
 }
 
 #servicios h5 {
@@ -73,10 +77,12 @@ main section:first-of-type p {
 }
 #servicios p {
   font-size: 0.95rem;
-  color: #555;
+  color: #f8f9fa;
 }
 
 #planes .card {
+  background-color: #212529;
+  color: #ffffff;
   border-radius: 12px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -105,7 +111,7 @@ main section:first-of-type p {
   transition: color 0.3s ease;
 }
 .footer-link:hover {
-  color: #ffd400;
+  color: #ffea00;
 }
 
 .whatsapp-float {

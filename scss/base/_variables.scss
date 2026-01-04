@@ -4,8 +4,15 @@
 
 // Colores de marca (AsisMotoYa)
 $color-negro: #000000;
-$color-amarillo: #ffd400;
 $color-blanco: #ffffff;
+
+// Amarillo flúor futurista
+$color-amarillo: #ffea00;
+
+// Blancos de apoyo
+$color-white-glow: rgba(255, 255, 255, 0.85);
+$color-yellow-glow: rgba(255, 234, 0, 0.75);
+
 
 // Colores de apoyo
 $color-dark: #212529;
@@ -21,3 +28,5 @@ $radius-md: 12px;
 
 // Sombras
 $shadow-card: 0 5px 15px rgba(0, 0, 0, 0.15);
+// Glow futurista
+$color-yellow-glow: rgba(255, 234, 0, 0.7);

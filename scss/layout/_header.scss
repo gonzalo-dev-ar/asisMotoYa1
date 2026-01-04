@@ -18,10 +18,14 @@
   gap: 2px;
 }
 
-// COLORES DEL LOGO
 .brand-title .asis {
   color: v.$color-negro;
+
+  /* borde blanco para mejorar contraste */
+  -webkit-text-stroke: 1px v.$color-blanco;
+  text-stroke: 1px v.$color-blanco;
 }
+
 
 .brand-title .moto {
   color: v.$color-amarillo;

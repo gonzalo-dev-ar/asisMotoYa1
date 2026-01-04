@@ -5,7 +5,8 @@
 // ==============================
 
 main {
-  background-color: v.$color-light;
+  background-color: v.$color-negro;
+  color: v.$color-blanco;
 }
 
 // ==============================
@@ -20,7 +21,7 @@ main section:first-of-type {
 
   p {
     font-size: 1.1rem;
-    color: v.$color-dark;
+    color: v.$color-light;
   }
 }
 
@@ -36,7 +37,7 @@ main section:first-of-type {
 
   p {
     font-size: 0.95rem;
-    color: #555;
+    color: v.$color-light;
   }
 }
 
@@ -45,6 +46,9 @@ main section:first-of-type {
 // ==============================
 
 #planes .card {
+  background-color: v.$color-dark;
+  color: v.$color-blanco;
+
   border-radius: v.$radius-md;
   box-shadow: v.$shadow-card;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
