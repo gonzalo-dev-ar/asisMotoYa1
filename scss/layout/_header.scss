@@ -17,23 +17,19 @@
   align-items: center;
   gap: 2px;
 }
-
 .brand-title .asis {
-  color: v.$color-negro;
-
-  /* borde blanco para mejorar contraste */
-  -webkit-text-stroke: 1px v.$color-blanco;
-  text-stroke: 1px v.$color-blanco;
+  color: v.$color-amarillo;
 }
 
-
 .brand-title .moto {
-  color: v.$color-amarillo;
+  color: v.$color-blanco;
 }
 
 .brand-title .ya {
   color: v.$color-blanco;
 }
+
+
 
 // ANIMACIÓN DE ENTRADA
 .brand-title {

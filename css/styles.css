@@ -12,14 +12,11 @@
 }
 
 .brand-title .asis {
-  color: #000000;
-  /* borde blanco para mejorar contraste */
-  -webkit-text-stroke: 1px #ffffff;
-  text-stroke: 1px #ffffff;
+  color: #ffea00;
 }
 
 .brand-title .moto {
-  color: #ffea00;
+  color: #ffffff;
 }
 
 .brand-title .ya {
